@@ -1,0 +1,16 @@
+[package] # Defines a package.
+name = "crate-template" # The name of the package.
+version = "0.0.1" # The version of the package.
+authors = ["Mattias Singmyr"] # The authors of the package.
+edition = "2021" # The Rust edition.
+description = "Rust Crate Template" # A description of the package.
+license = "GPL-3.0-only" # The package license.
+#license-file = "LICENSE" # Path to the text of the license.
+# crates.io has a maximum of 5 keywords. Each keyword must be ASCII text, start with a letter, and only contain letters, numbers, _ or -, and have at most 20 characters.
+keywords = []
+# crates.io has a maximum of 5 categories. Each category should match one of the strings available at https://crates.io/category_slugs, and must match exactly.
+categories = []
+
+# See more keys and their definitions at https =//doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
